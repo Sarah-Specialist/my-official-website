@@ -1,0 +1,20 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #EBD9FF;
+    opacity: 80%;
+    width: 100vw;
+    height: 30px;
+}
+
+.pages {
+    padding: 0 20px;
+    background-color: #EBD9FF;
+    opacity: 80%;
+}
+
+.pages:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
