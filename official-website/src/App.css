@@ -2,3 +2,8 @@
   background-color: mediumpurple;
   box-sizing: border-box;
 }
+
+.App {
+  font-family: 'Lato';
+  font-size: 18px;
+}
