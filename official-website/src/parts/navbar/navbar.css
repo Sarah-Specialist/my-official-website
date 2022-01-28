@@ -1,11 +1,12 @@
 .navbar {
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 0;
     background-color: #EBD9FF;
     opacity: 80%;
     width: 100vw;
     height: 30px;
+    padding-left: 20px;
 }
 
 .pages {

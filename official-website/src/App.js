@@ -1,7 +1,8 @@
 import React from 'react';
-import Logo from './parts/logo/logo';
-import Footer from './parts/footer/footer';
 import Navbar from './parts/navbar/navbar';
+import Logo from './parts/logo/logo';
+import Card from './components/card/card';
+import Footer from './parts/footer/footer';
 import './App.css';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
           <Navbar />
           <Logo />
         <div>
-          
+          <Card />
         </div>
         <Footer />
       </div> 

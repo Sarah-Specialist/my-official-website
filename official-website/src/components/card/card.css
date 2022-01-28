@@ -1,0 +1,8 @@
+.card {
+    position: absolute;
+    left: 100px;
+    background-color: white;
+    opacity: 80%;
+    width: 400px;
+    height: 500px;
+}

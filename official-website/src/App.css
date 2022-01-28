@@ -1,9 +1,11 @@
 * {
   background-color: mediumpurple;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .App {
   font-family: 'Lato';
   font-size: 18px;
+
 }
