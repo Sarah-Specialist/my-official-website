@@ -1,8 +1,13 @@
 .card {
-    position: absolute;
-    left: 100px;
     background-color: white;
-    opacity: 80%;
-    width: 400px;
-    height: 500px;
+    opacity: 70%;
+    width: 450px;
+    height: 400px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.title,
+.paragraph {
+    background-color: inherit;
 }

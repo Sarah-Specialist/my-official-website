@@ -6,12 +6,18 @@ import Footer from './parts/footer/footer';
 import './App.css';
 
 function App() {
+
+
+
   return (
     <div className="App">
       <div className="container">
           <Navbar />
           <Logo />
-        <div>
+        <div className="main">
+          <Card 
+              title="General"
+              paragraph="About forwarding Limits" />
           <Card />
         </div>
         <Footer />
