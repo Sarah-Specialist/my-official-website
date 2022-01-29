@@ -1,0 +1,13 @@
+.about {
+    background-color: white;
+    opacity: 80%;
+    width: 80vw;
+    padding: 0 100px;
+    font-size: 16px;
+    overflow-y: hidden;
+}
+
+.about p,
+.about h3 {
+    background-color: inherit;
+}
