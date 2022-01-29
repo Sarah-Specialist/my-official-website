@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './parts/navbar/navbar';
 import Logo from './parts/logo/logo';
 import Card from './components/card/card';
+import Profile from './components/profile/profile';
+import ContactInfo from './components/contactInfo/contactInfo';
 import Footer from './parts/footer/footer';
 import './App.css';
 
@@ -16,9 +18,11 @@ function App() {
           <Logo />
         <div className="main">
           <Card 
-              title="General"
-              paragraph="About forwarding Limits" />
-          <Card />
+            title={<Profile />}
+            paragraph="Hello! My name is Sarah!" />
+          <Card 
+            title="Get in touch!"
+            paragraph={<ContactInfo />} />
         </div>
         <Footer />
       </div> 

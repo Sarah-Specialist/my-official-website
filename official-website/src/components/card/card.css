@@ -2,9 +2,13 @@
     background-color: white;
     opacity: 70%;
     width: 450px;
-    height: 400px;
+    height: 350px;
     margin-top: 20px;
     text-align: center;
+}
+
+.title {
+    margin-top: 50px;
 }
 
 .title,
