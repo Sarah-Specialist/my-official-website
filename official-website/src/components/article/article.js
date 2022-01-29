@@ -1,13 +1,15 @@
 import './article.css';
 
-export default function Article() {
+export default function Article(props) {
+    const {articleTitle, articleParagraph} = props;
+
     return (
-        <div>
-            <span className="image"></span>
+        <>
+            <span className="articleImage">image</span>
             <span className="description">
-                <div className="articleTitle"></div>
-                <div className="articleContent"></div>
+                <h3 className="articleTitle">{articleTitle}</h3>
+                <p className="articleParagraph">{articleParagraph}</p>
             </span>
-        </div>
+        </>
     )
 }

@@ -1,0 +1,17 @@
+.articleTitle {
+    background-color: white;
+    opacity: 80%;
+    width: 80vw;
+    padding: 0 100px;
+    font-size: 16px;
+    overflow-y: hidden;
+}
+
+.articleParagraph {
+    background-color: white;
+    opacity: 80%;
+    width: 80vw;
+    padding: 0 100px;
+    font-size: 16px;
+    overflow-y: hidden;
+}
