@@ -8,6 +8,11 @@
 }
 
 .about p,
+.about h2,
 .about h3 {
     background-color: inherit;
+}
+
+.about h2 {
+    text-align: center;
 }

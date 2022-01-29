@@ -1,3 +1,18 @@
+.article {
+    background-color: white;
+    opacity: 85%;
+    width: 80vw;
+    padding: 0 80px 0 30px;
+    font-size: 16px;
+    overflow-y: hidden;
+}
+
+.articleImg {
+    text-align: center;
+    background-color: inherit;
+    margin-top: 30px;
+}
+
 .articleTitle {
     background-color: white;
     opacity: 80%;
