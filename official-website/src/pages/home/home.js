@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from '../components/card/card';
-import Profile from '../components/profile/profile';
-import ContactInfo from '../components/contactInfo/contactInfo';
+import Card from '../../components/card/card';
+import Profile from '../../components/profile/profile';
+import ContactInfo from '../../components/contactInfo/contactInfo';
 
 export default function Home() {
     return (
