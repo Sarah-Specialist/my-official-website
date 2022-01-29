@@ -19,7 +19,8 @@ function App() {
         <div className="main">
           <Card 
             title={<Profile />}
-            paragraph="Hello! My name is Sarah!" />
+            paragraph="Reach for your dreams with specialized design for your brand and company!
+            Your website will be intuitive to use and responsive to the user." />
           <Card 
             title="Get in touch!"
             paragraph={<ContactInfo />} />
