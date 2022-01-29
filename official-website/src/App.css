@@ -9,6 +9,28 @@
   font-size: 18px;
 }
 
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #EBD9FF;
+  width: 100vw;
+  height: 30px;
+  padding-left: 20px;
+}
+
+.pages {
+  padding: 5px 20px;
+  font-size: 16px;
+  background-color: #EBD9FF;
+  border: none;
+}
+
+.pages:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .main {
   display: flex;
   flex-wrap: wrap;

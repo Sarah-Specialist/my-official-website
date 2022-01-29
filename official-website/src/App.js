@@ -1,5 +1,9 @@
 import React from 'react';
-import Navbar from './parts/navbar/navbar';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import About from './pages/about';
+import Portfolio from './pages/portfolio';
+import Testimonials from './pages/testimonials';
+import Contact from './pages/contact';
 import Logo from './parts/logo/logo';
 import Card from './components/card/card';
 import Profile from './components/profile/profile';
@@ -8,13 +12,45 @@ import Footer from './parts/footer/footer';
 import './App.css';
 
 function App() {
-
-
-
   return (
     <div className="App">
+      <div className="navbar">
+      <Router>
+        <Link to="/">
+          <button className="pages">Home</button>
+        </Link>
+        <Link to="/about">
+          <button className="pages">About Me</button>
+        </Link>
+        <Link to="/portfolio">
+          <button className="pages">Portfolio</button>
+        </Link>
+        <Link to="/testimonials">
+          <button className="pages">Testimonials</button>
+        </Link>
+        <Link to="/contact">
+          <button className="pages">Contact</button>
+        </Link>
+      
+      <Switch>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/portfolio">
+          <Portfolio />
+        </Route>
+        <Route path="/testimonials">
+          <Testimonials />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route exact path="/">
+        </Route>
+      </Switch>
+      </Router>
+      </div>
       <div className="container">
-          <Navbar />
           <Logo />
         <div className="main">
           <Card 

@@ -1,25 +1,14 @@
 import React from 'react';
-import Navbar from './parts/navbar/navbar';
-import Logo from './parts/logo/logo';
-import ContactInfo from './components/contactInfo/contactInfo';
-import Footer from './parts/footer/footer';
-import './Contact.css';
+import ContactInfo from '../components/contactInfo/contactInfo';
 
 export default function Contact() {
 
   return (
-    <div className="App">
-      <div className="container">
-          <Navbar />
-          <Logo />
-        <div className="main">
-            <form>
+    <div className="main">
+      <form>
                 
-            </form>
-            <ContactInfo />
-        </div>
-        <Footer />
-      </div> 
+      </form>
+      <ContactInfo />
     </div>
   );
 }
