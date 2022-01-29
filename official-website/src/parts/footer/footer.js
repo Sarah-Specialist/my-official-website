@@ -4,7 +4,7 @@ export default function Footer() {
 
     return (
         <div className="footer">
-            <span className="copyright">Sarah Khoo</span>
+            <span className="copyright"></span>
             <div className="socials">
             <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" 
                 alt="facebook logo" 
