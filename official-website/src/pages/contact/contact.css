@@ -1,8 +1,71 @@
 .contact {
-    background-color: white;
+    background-color: #EBD9FF;
     opacity: 80%;
     width: 80vw;
     padding: 0 100px;
     font-size: 16px;
     overflow-y: hidden;
+}
+
+.contact h1,
+.contact h2 {
+    text-align: center;
+    background-color: inherit;
+}
+
+.name,
+.name label,
+.name input,
+.email,
+.email label,
+.email input,
+.subject,
+.subject label,
+.subject input,
+.message,
+.message label,
+.message input,
+.button {
+    background-color: #EBD9FF;
+}
+
+.name,
+.email,
+.subject,
+.message {
+    padding: 10px;
+}
+
+input {
+    border: 1px solid grey;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.name input,
+.email input {
+    margin-left: 22px;
+}
+
+.subject input {
+    margin-left: 12px;
+}
+
+.message input {
+    width: 50vw;
+    min-height: 100px;
+    height: auto;
+    margin-left: 2px;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    background-color: aquamarine;
+    border: 1px solid grey;
+    box-shadow: 5px;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
