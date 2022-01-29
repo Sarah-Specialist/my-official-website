@@ -1,17 +1,18 @@
 .articleTitle {
     background-color: white;
     opacity: 80%;
-    width: 80vw;
-    padding: 0 100px;
-    font-size: 16px;
-    overflow-y: hidden;
+    padding: 20px;
+    text-align: center;
 }
 
-.articleParagraph {
+.articleGoal,
+.articleLF,
+.articleFeatures,
+.articleProcess,
+.articleLink,
+.articleTags {
     background-color: white;
     opacity: 80%;
-    width: 80vw;
-    padding: 0 100px;
     font-size: 16px;
-    overflow-y: hidden;
+    padding: 5px 0;
 }
