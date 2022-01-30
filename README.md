@@ -14,6 +14,7 @@ This is an individual project that I did in my free time. I created a website to
 * CSS
 * JavaScript
 * React
+* React Functional Components
 * React Router Dom
 * React Hooks
 * Visual Studios Code
