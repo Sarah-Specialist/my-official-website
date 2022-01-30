@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import ContactInfo from '../../components/contactInfo/contactInfo';
 import emailjs from '@emailjs/browser';
 import './contact.css';
 
