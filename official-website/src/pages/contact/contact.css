@@ -19,53 +19,57 @@
 .email,
 .email label,
 .email input,
-.subject,
-.subject label,
-.subject input,
 .message,
 .message label,
-.message input,
+.message textarea,
 .button {
     background-color: #EBD9FF;
 }
 
 .name,
 .email,
-.subject,
 .message {
     padding: 10px;
 }
 
-input {
+input,
+textarea {
     border: 1px solid grey;
     padding: 5px 10px;
     border-radius: 3px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .name input,
 .email input {
-    margin-left: 22px;
+    margin-left: 25px;
+    width: 200px;
 }
 
-.subject input {
-    margin-left: 12px;
+.message label {
+    vertical-align: top;
 }
 
-.message input {
+.message textarea {
     width: 50vw;
     min-height: 100px;
     height: auto;
-    margin-left: 2px;
+    margin-left: 5px;
 }
 
 .button {
     text-align: center;
 }
 
-button {
+.button input {
     background-color: aquamarine;
     border: 1px solid grey;
     box-shadow: 5px;
     border-radius: 5px;
     padding: 5px 10px;
+}
+
+.button input:hover {
+    font-weight: bold;
+    cursor: pointer;
 }
