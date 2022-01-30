@@ -3,6 +3,7 @@ import Card from '../../components/card/card';
 import Profile from '../../components/profile/profile';
 import ContactInfo from '../../components/contactInfo/contactInfo';
 import Featured from '../../components/featured/featured';
+import Services from '../../components/services/services';
 
 export default function Home() {
     return (
@@ -22,6 +23,9 @@ export default function Home() {
         </div>
         <div>
             <Featured />
+        </div>
+        <div>
+            <Services />
         </div>
         </>
     )

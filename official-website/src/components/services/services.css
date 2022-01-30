@@ -1,0 +1,13 @@
+.services {
+    background-color: #EBD9FF;
+    opacity: 80%;
+    margin: 10px 0;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 80vw;
+}
+
+.services h2,
+.services div {
+    background-color: inherit;
+}
