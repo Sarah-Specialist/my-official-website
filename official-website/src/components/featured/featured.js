@@ -3,6 +3,9 @@ import './featured.css';
 export default function Featured() {
 
     return (
-        <h2>Featured</h2>
+    <div className="featured">
+        <h2>Check out my latest project!</h2>
+        <div></div>
+    </div>
     )
 }
