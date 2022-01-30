@@ -16,7 +16,7 @@ This is an individual project that I did in my free time. I created a website to
 * React
 * React Functional Components
 * React Router Dom
-* React Hooks
+* EmailJS
 * Visual Studios Code
 * GitHub
 
