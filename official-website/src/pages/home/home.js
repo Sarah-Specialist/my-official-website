@@ -11,7 +11,7 @@ export default function Home() {
             paragraph="Reach for your dreams with specialized design for your brand and company!
             Your website will be intuitive to use and responsive to the user." />
             <Card 
-            title="Get in touch!"
+            title="Get in touch with me!"
             paragraph={<ContactInfo />} />
         </>
     )

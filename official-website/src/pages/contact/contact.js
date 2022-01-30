@@ -12,6 +12,7 @@ export default function Contact() {
     emailjs.sendForm('service_2gv6vgb', 'template_k0361pi', form.current, 'user_ByCqOpjx1J0RXvSzaSC8A')
       .then((result) => {
           console.log(result.text);
+          alert("Your message has been sent!");
       }, (error) => {
           console.log(error.text);
       });
@@ -37,8 +38,6 @@ export default function Contact() {
         <input type="submit" value="Send" />
       </div>
     </form>
-    <h2>Get in touch with me!</h2>
-    <ContactInfo />
     </div>
   );
 };

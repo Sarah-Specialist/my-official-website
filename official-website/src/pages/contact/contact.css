@@ -7,8 +7,7 @@
     overflow-y: hidden;
 }
 
-.contact h1,
-.contact h2 {
+.contact h1 {
     text-align: center;
     background-color: inherit;
 }
@@ -52,13 +51,14 @@ textarea {
 
 .message textarea {
     width: 50vw;
-    min-height: 100px;
+    min-height: 300px;
     height: auto;
     margin-left: 5px;
 }
 
 .button {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .button input {
