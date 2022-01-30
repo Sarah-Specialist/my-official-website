@@ -8,13 +8,17 @@ export default function Home() {
     return (
         <>
         <div className="home">
-            <Card 
-            title={<Profile />}
-            paragraph="Reach for your dreams with specialized design for your brand and company!
-            Your website will be intuitive to use and responsive to the user." />
-            <Card 
-            title="Get in touch with me!"
-            paragraph={<ContactInfo />} />
+            <span className="card1">
+                <Card 
+                title={<Profile />}
+                paragraph="Reach for your dreams with specialized design for your brand and company!
+                Your website will be intuitive to use and responsive to the user." />
+            </span>
+            <span className="card2">
+                <Card 
+                title="Get in touch with me!"
+                paragraph={<ContactInfo />} />
+            </span>
         </div>
         <div>
             <Featured />
