@@ -6,8 +6,7 @@
     opacity: 95%;
     width: 100vw;
     height: 30px;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    margin-top: 20px;
 }
 
 .copyright {
@@ -17,15 +16,4 @@
     bottom: -5px;
     left: 5px;
     font-size: 15px;
-}
-
-.socials {
-    float: right;
-    padding: 5px 20px;
-    background-color: #EBD9FF;
-    opacity: 80%;
-}
-
-.social {
-    margin: 0 5px;
 }

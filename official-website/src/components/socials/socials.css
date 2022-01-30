@@ -1,0 +1,10 @@
+.socials {
+    float: right;
+    padding: 5px 20px;
+    background-color: #EBD9FF;
+    opacity: 80%;
+}
+
+.social {
+    margin: 0 5px;
+}
