@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Router>
       <div className="navbar">
-          <Link to="/home"><button className="pages">Home</button></Link>
+          <Link to="/"><button className="pages">Home</button></Link>
           <Link to="/about"><button className="pages">About Me</button></Link>
           <Link to="/portfolio"><button className="pages">Portfolio</button></Link>
           <Link to="/contact"><button className="pages">Contact</button></Link>
