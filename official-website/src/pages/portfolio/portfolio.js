@@ -5,7 +5,7 @@ import './portfolio.css';
 export default function Portfolio() {
 
   return (
-    <div className="article">
+    <div className="articles">
       <Article 
       src="https://media-exp1.licdn.com/dms/image/C4E22AQEU0daWdlKwKA/feedshare-shrink_800/0/1640229225826?e=1646265600&v=beta&t=s6oP_tOb7lrqzLUkWJUsg6RvR9aEbNdQcx_Mpua9yQU"
       alt="P F calculator"

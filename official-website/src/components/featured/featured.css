@@ -4,6 +4,8 @@
     background-color: #EBD9FF;
     opacity: 80%;
     margin: 10px 0;
+    position: relative;
+    left: 10%;
 }
 
 .featured h2,

@@ -2,11 +2,13 @@ import './services.css';
 
 export default function Services() {
     return (
-        <div className="services">
+        <div className="servicesDiv">
             <h2>Services</h2>
-            <div>Create a new product</div>
-            <div>Improve your existing website</div>
-            <div>Supercharge your growth</div>
+            <div className="services">
+                <div className="service">Create a new product</div>
+                <div className="service">Improve your existing website</div>
+                <div className="service">Supercharge your growth</div>
+            </div>
         </div>
     )
 }
