@@ -10,6 +10,7 @@
 }
 
 .featured h2,
+.featured img,
 .featured div,
 .featured p {
     background-color: inherit;

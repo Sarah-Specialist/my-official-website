@@ -27,6 +27,8 @@ export default function Portfolio() {
       articleLink="Link: https://sarah-specialist.github.io/CarparkAvailability/"
       />
       <Article 
+      src="https://github.com/Sarah-Specialist/my-official-website/blob/08e56e38d1088fbb1273276d2a898897912c4d0e/image.jpg"
+      alt="official website"
       articleTitle="My Official Website"
       articleGoal="Goal: To create a website that showcase the value of my projects and allow interactions with clients and other developers."
       articleLF="Languages and Frameworks: React, React-Router-Dom, React Functional Components, EmailJS, HTML, CSS, JavaScript, Visual Studios Code, GitHub"
