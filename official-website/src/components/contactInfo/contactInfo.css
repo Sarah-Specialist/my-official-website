@@ -1,3 +1,12 @@
+.contactInfo,
+.information {
+    background-color: inherit;
+}
+
+.contactInfo p {
+    margin-bottom: 30px;
+}
+
 .directSocials {
     background-color: inherit;
     position: relative;

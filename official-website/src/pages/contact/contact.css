@@ -64,8 +64,8 @@ textarea {
 }
 
 .button input {
-    background-color: aquamarine;
-    border: 1px solid grey;
+    background-color: #D9FFFE;
+    border: 1px solid #D9FFFE;
     box-shadow: 5px;
     border-radius: 5px;
     padding: 5px 10px;

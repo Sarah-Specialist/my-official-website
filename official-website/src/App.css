@@ -3,6 +3,7 @@
   box-sizing: border-box;
   overflow-x: hidden;
   color: #343434;
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
 }
 
 .App {
