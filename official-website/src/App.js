@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Router>
       <div className="navbar">
-          <Link to="/"><button className="pages">Home</button></Link>
+          <Link to="/home"><button className="pages">Home</button></Link>
           <Link to="/about"><button className="pages">About Me</button></Link>
           <Link to="/portfolio"><button className="pages">Portfolio</button></Link>
           <Link to="/contact"><button className="pages">Contact</button></Link>
@@ -21,10 +21,10 @@ function App() {
       <Logo />
       <div className="main">
         <Switch>
-          <Route exact path="/"><Home /></Route>
-          <Route path="/about"><About /></Route>
-          <Route path="/portfolio"><Portfolio /></Route>
-          <Route path="/contact"><Contact /></Route>
+          <Route exact path="/home"><Home /></Route>
+          <Route exact path="/about"><About /></Route>
+          <Route exact path="/portfolio"><Portfolio /></Route>
+          <Route exact path="/contact"><Contact /></Route>
         </Switch>
       </div>
       </Router>
