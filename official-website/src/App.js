@@ -21,10 +21,11 @@ function App() {
       <Logo />
       <div className="main">
         <Switch>
+          <Route exact path="/"><Home /></Route>
           <Route path="/about"><About /></Route>
           <Route path="/portfolio"><Portfolio /></Route>
           <Route path="/contact"><Contact /></Route>
-          <Route path=""><Navigate to="/home" /><Home /></Route>
+          <Redirect from ="*" to="/" />
         </Switch>
       </div>
       </Router>
