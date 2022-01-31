@@ -8,13 +8,6 @@ import Logo from './parts/logo/logo';
 import Footer from './parts/footer/footer';
 import './App.css';
 
-import Card from '../../components/card/card';
-import Profile from '../../components/profile/profile';
-import ContactInfo from '../../components/contactInfo/contactInfo';
-import Featured from '../../components/featured/featured';
-import Services from '../../components/services/services';
-import './home.css';
-
 function App() {
   return (
     <div className="App">
@@ -27,27 +20,6 @@ function App() {
       </div>
       <Logo />
       <div className="main">
-      <>
-        <div className="home">
-            <span className="card1">
-                <Card 
-                title={<Profile />}
-                paragraph="Reach for your dreams with specialized design for your brand and company!
-                Your website will be intuitive to use and responsive to the user." />
-            </span>
-            <span className="card2">
-                <Card 
-                title="Get in touch with me!"
-                paragraph={<ContactInfo />} />
-            </span>
-        </div>
-        <div>
-            <Featured />
-        </div>
-        <div>
-            <Services />
-        </div>
-        </>
         <Switch>
           <Route path="/"><Home /></Route>
           <IndexRoute to="/home" />
