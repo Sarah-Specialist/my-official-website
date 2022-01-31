@@ -21,11 +21,10 @@ function App() {
       <Logo />
       <div className="main">
         <Switch>
-          <Route path="/"><Home /></Route>
-          <IndexRoute to="/home" />
           <Route path="/about"><About /></Route>
           <Route path="/portfolio"><Portfolio /></Route>
           <Route path="/contact"><Contact /></Route>
+          <Route path="/"><Home /></Route>
         </Switch>
       </div>
       </Router>
