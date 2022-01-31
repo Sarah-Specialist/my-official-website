@@ -19,7 +19,7 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <h1>Contact</h1>
+      <h2>Contact</h2>
     <form ref={form} onSubmit={sendEmail}>
       <div className="name">
         <label>Name:</label>

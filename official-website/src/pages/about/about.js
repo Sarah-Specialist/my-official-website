@@ -1,5 +1,4 @@
 import React from 'react';
-import Featured from '../../components/featured/featured';
 import './about.css';
 
 export default function About() {
@@ -19,8 +18,6 @@ export default function About() {
             <p>Responsive design, Navigation design, JavaScript, Intermediate JavaScript, Color Design, Command Line, Git, CSS-in-JS, Bootstrap, Deployment, React, React Router, Node.js</p>
             <h3>Bachelor's Degree in Health Sciences (Respiratory Therapy) - University of Missouri</h3>
             <p>“Sarah reflects the high standards of our profession. She consistently takes initiative and her ability to balance and prioritize various responsibilities speaks to her intelligence and maturity.” - Monica A. Schibig, Director of Respiratory Care Program, University of Missouri</p>
-        
-            <Featured />
         </div>
     )
 }

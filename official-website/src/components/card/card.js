@@ -6,7 +6,7 @@ export default function Card(props) {
 
     return (
         <div className="card">
-            <h3 className="title">{title}</h3>
+            <h2 className="title">{title}</h2>
             <p className="paragraph">{paragraph}</p>
         </div>
     )
