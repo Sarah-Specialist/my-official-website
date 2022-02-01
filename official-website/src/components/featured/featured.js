@@ -7,7 +7,9 @@ export default function Featured() {
         <h2>Check out my latest project!</h2>
         <div>
             <img src="https://i.ibb.co/8zdvQ01/image.jpg"
-            alt="featured" />
+            alt="featured" 
+            height="250"
+            width= "500" />
             <p>https://sarah-specialist.github.io/my-official-website/</p>
         </div>
     </div>
