@@ -6,7 +6,7 @@ export default function Featured() {
     <div className="featured">
         <h2>Check out my latest project!</h2>
         <div>
-            <img src="https://ibb.co/M8GwJsF"
+            <img src="https://i.ibb.co/8zdvQ01/image.jpg"
             alt="featured" />
             <p>https://sarah-specialist.github.io/my-official-website/</p>
         </div>
