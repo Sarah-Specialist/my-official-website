@@ -27,7 +27,7 @@ export default function Portfolio() {
       articleLink="Link: https://sarah-specialist.github.io/CarparkAvailability/"
       />
       <Article 
-      src=""
+      src="https://i.ibb.co/8zdvQ01/image.jpg"
       alt="official website"
       articleTitle="My Official Website"
       articleGoal="Goal: To create a website that showcase the value of my projects and allow interactions with clients and other developers."
