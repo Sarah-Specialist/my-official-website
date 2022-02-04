@@ -15,3 +15,7 @@
 .featured p {
     background-color: inherit;
 }
+
+.featured img {
+    border: 1px solid white;
+}

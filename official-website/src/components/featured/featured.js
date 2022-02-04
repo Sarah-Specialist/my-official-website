@@ -9,8 +9,7 @@ export default function Featured() {
             <img src="https://i.ibb.co/8zdvQ01/image.jpg"
             alt="featured" 
             height="250"
-            width= "500"
-            style={{border: "1px solid white"}} />
+            width= "500" />
             <p>https://sarah-specialist.github.io/my-official-website/</p>
         </div>
     </div>
