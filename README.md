@@ -33,3 +33,5 @@ Using this website, you can view information about me, my portfolio and my conta
  Focus on what work you want/like to do. And who you want to work with.
  
  To show what you can do to make the client’s/employer’s life easier.
+ 
+ "Took me a while to finish this project, but it was definitely worth it. I enjoyed every step of the process and learned a few tricks along the way. Sure, there were some frustrating moments (i.e., debugging the cause of the y-axis overflow from the enormous CSS and JavaScript code I built), but everything was worth it. I was able to pick more tools, such as getting a Chrome extension to identify the z-index relationship between elements and getting my hands on Figma, which is a pretty dope wireframing/prototyping software."
