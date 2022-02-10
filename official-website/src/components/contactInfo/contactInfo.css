@@ -3,6 +3,10 @@
     background-color: inherit;
 }
 
+.information {
+    margin: -10px 0;
+}
+
 .contactInfo p {
     margin-bottom: 30px;
 }
