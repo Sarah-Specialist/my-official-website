@@ -1,5 +1,9 @@
-* {
-  background-color: #B879FF;
+body {
+  background-image: URL("https://inspirationfeed.com/wp-content/uploads/2020/01/stone.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  opacity: 95%;
   box-sizing: border-box;
   overflow-x: hidden;
   color: #343434;
