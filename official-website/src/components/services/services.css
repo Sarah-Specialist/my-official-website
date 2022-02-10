@@ -35,3 +35,48 @@
 .service p {
     margin-top: -5px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .servicesDiv {
+        position: relative;
+        top: 290px;
+        width: 100vw;
+        left: -10px;
+        padding: 20px 10px 5px 10px;
+    }
+
+    .service {
+        overflow-x: hidden;
+    }
+
+    .services {
+        gap: 15px;
+    }
+
+    .service p {
+        font-size: 11px;
+        margin-left: -65px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
