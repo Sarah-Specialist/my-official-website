@@ -40,5 +40,5 @@ body {
 .main {
   display: block;
   position: relative;
-  margin-top: 30px;
+  margin: 30px 0;
 }
