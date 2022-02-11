@@ -14,14 +14,11 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 991px) {
     .footer {
         margin-bottom: 30px;
+        width: 105vw;
+        height: 3vh;
     }
 }
 

@@ -1,7 +1,7 @@
 body {
   background-image: URL("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTl2v4ComcnQEv9Aqad-xPrCl-mdIsuyffMg&usqp=CAU");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   width: 100vw;
   opacity: 95%;
   height: 99vh;
@@ -122,7 +122,9 @@ body {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+  .appFooter {
+    padding-top: 30px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
