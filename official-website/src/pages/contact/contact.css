@@ -100,7 +100,7 @@ textarea {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .contact {
-        
+        left: -4%;
         height: 100vh;
         margin-bottom: -30px;
     }
