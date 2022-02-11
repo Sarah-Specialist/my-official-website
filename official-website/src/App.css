@@ -87,7 +87,7 @@ body {
 
   .navbar {
     position: relative;
-    top: 220px;
+    top: 20px;
     display: none;
     flex-direction: row;
     flex-wrap: wrap;
