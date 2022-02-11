@@ -7,9 +7,10 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .articles {
-        top: 260px;
+        top: 20px;
         left: -5%;
         width: 100vw;
+        margin-bottom: -40px;
     }
 }
 
@@ -20,7 +21,10 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    .articles {
+        left: -9%;
+        margin-bottom: -55px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

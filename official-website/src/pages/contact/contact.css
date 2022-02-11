@@ -78,11 +78,11 @@ textarea {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .contact {
-        top: 260px;
+        top: 10px;
         left: -2%;
         width: 100vw;
         padding: 0 10px;
-        margin-bottom: -25px;
+        margin-bottom: -50px;
     }
 
     .message textarea {
@@ -99,7 +99,11 @@ textarea {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    .contact {
+        
+        height: 100vh;
+        margin-bottom: -30px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

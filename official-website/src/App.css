@@ -2,7 +2,7 @@ body {
   background-image: URL("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTl2v4ComcnQEv9Aqad-xPrCl-mdIsuyffMg&usqp=CAU");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 100vw;
   opacity: 95%;
   box-sizing: border-box;
   overflow-x: hidden;
@@ -13,7 +13,7 @@ body {
 .toggleMenu {
   position: absolute;
   top: 1%;
-  right: 1%;
+  right: 2%;
   display: none;
   flex-direction: column;
   justify-content: space-around;
