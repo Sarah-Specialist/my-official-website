@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   width: 100vw;
   opacity: 95%;
+  height: 99vh;
   box-sizing: border-box;
   overflow-x: hidden;
   color: #343434;
@@ -74,20 +75,26 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  body {
+  html,body{
     overflow-x: hidden;
-    width: 110vw;
+  }
+
+  body {
+    height: 100vh;
+    width: 100%;
     background-repeat: repeat;
+    margin: auto;
   }
 
   .toggleMenu {
+    position: absolute;
     display: flex;
     z-index: 1;
   }
 
   .navbar {
     position: relative;
-    top: 20px;
+    top: 15px;
     display: none;
     flex-direction: row;
     flex-wrap: wrap;

@@ -12,14 +12,12 @@
 @media only screen and (max-width: 600px) {
     .card1 {
         position: relative;
-        top: 10px;
-        left: -3%;;
+        top: 5px;
     }
 
     .card2 {
         position: relative;
-        top: 20px;
-        left: -3%;
+        top: 5px;
     }
 }
 

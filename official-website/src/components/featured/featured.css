@@ -24,7 +24,7 @@
 @media only screen and (max-width: 600px) {
     .featured {
         position: relative;
-        top: 30px;
+        top: 10px;
         width: 100vw;
         left: -5px;
     }
