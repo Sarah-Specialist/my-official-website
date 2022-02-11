@@ -1,7 +1,7 @@
 .servicesDiv {
     background-color: #EBD9FF;
     margin: 10px 0;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
     height: 250px;
     width: 80vw;
@@ -40,10 +40,10 @@
 @media only screen and (max-width: 600px) {
     .servicesDiv {
         position: relative;
-        top: 10px;
+        top: 20px;
         width: 100vw;
         left: -10px;
-        padding: 20px 10px 5px 10px;
+        padding: 20px 10px 0 10px;
     }
 
     .service {

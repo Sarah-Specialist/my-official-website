@@ -114,6 +114,10 @@ body {
     padding: 20px 145px;
     width: 100vw;
   }
+
+  .appFooter {
+    padding-top: 10px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
