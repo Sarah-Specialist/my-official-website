@@ -96,6 +96,7 @@ body {
   .navbar {
     position: relative;
     top: 15px;
+    padding-left: 100px;
     display: none;
     flex-direction: row;
     flex-wrap: wrap;
@@ -139,5 +140,9 @@ body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+  .main {
+    overflow-x: hidden;
+    padding-right: 30px;
+    width: 105vw;
+  }
 }
