@@ -23,10 +23,15 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 991px) {
+@media only screen and (min-width: 600px) {
     .logoDiv {
-        width: 105vw;
+        width: 110vw;
     }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
