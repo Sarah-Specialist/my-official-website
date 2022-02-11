@@ -15,13 +15,13 @@ function App() {
 
   return (
     <div className="App">
-      <div className="toggleMenu" onClick={handleMenu}>
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
-      </div>
       <Router>
       <div className="logo">
+        <div className="toggleMenu" onClick={handleMenu}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
         <Logo />
       </div>
       <div className={show ? "navbar active" : "navbar"}>
