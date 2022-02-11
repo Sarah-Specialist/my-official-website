@@ -74,3 +74,40 @@ textarea {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contact {
+        top: 260px;
+        left: -2%;
+        width: 100vw;
+        padding: 0 10px;
+        margin-bottom: -25px;
+    }
+
+    .message textarea {
+        width: 60vw;
+        min-height: 200px;
+        height: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

@@ -22,16 +22,15 @@ function App() {
       </div>
       <Router>
       <div className={show ? "navbar active" : "navbar"}>
-          <Link to="/"><button className="pages">Home</button></Link>
-          <Link to="/about"><button className="pages">About Me</button></Link>
-          <Link to="/portfolio"><button className="pages">Portfolio</button></Link>
-          <Link to="/contact"><button className="pages">Contact</button></Link>
+          <Link to="/" style={{textDecoration: "none"}}><button className="pages">Home</button></Link>
+          <Link to="/about" style={{textDecoration: "none"}}><button className="pages">About Me</button></Link>
+          <Link to="/portfolio" style={{textDecoration: "none"}}><button className="pages">Portfolio</button></Link>
+          <Link to="/contact" style={{textDecoration: "none"}}><button className="pages">Contact</button></Link>
       </div>
       <div className="logo">
         <Logo />
       </div>
       <div className="main">
-        
         <Switch>
           <Route exact path="/"><Home /></Route>
           <Route path="/about"><About /></Route>
