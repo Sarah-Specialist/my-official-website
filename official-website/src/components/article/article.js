@@ -11,10 +11,9 @@ export default function Article(props) {
                 <div className="articleGoal">{articleGoal}</div>
                 <div className="articleLF">{articleLF}</div>
                 <div className="articleFeatures">{articleFeatures}</div>
-                <div className="articleProcess">{articleProcess}</div>
-                <div className="articleLink">{articleLink}</div>
             </div>
-            
+                <div className="articleProcess">{articleProcess}</div>
+                <div className="articleLink">{articleLink}</div>   
         </div>
     )
 }

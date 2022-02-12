@@ -1,9 +1,10 @@
 .article {
     background-color: #EDDEFF;
     width: 80vw;
-    padding: 0 80px;
+    padding: 0 80px 30px 80px;
     font-size: 16px;
     overflow-y: hidden;
+    text-align: center;
 }
 
 .articleImg {
@@ -21,16 +22,61 @@
     text-align: center;
 }
 
+.articleContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    gap: 5px;
+}
+
 .articleGoal,
 .articleLF,
 .articleFeatures,
 .articleProcess,
 .articleLink,
 .articleTags {
-    background-color: inherit;
     opacity: 80%;
     font-size: 16px;
-    padding: 5px 0;
+    height: auto;
+    width: auto;
+    padding: 40px;
+}
+
+.articleGoal {
+    background-color: #B1AEFF;
+    width: 300px;
+    height: auto;
+    margin-left: -40px;
+}
+
+.articleLF {
+    background-color:#B1AEFF;
+    width: 170px;
+    min-height: 50px;
+    margin-left: 20px;
+}
+
+.articleFeatures {
+    background-color:#B1AEFF;
+    width: 300px;
+    margin-left: -30px;
+}
+
+.articleProcess {
+    background-color:#B1AEFF;
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-top: -450px;
+}
+
+.articleLink {
+    background-color: #B1AEFF;
+    position: relative;
+    margin-top: -60px;
+    float: right;
+    width: 400px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -54,25 +100,10 @@
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .articleTitle {
         margin-left: 30px;
         font-size: 28px;
     }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
 }

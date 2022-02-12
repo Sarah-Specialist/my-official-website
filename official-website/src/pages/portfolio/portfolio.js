@@ -36,7 +36,7 @@ export default function Portfolio() {
       articleProcess="Process: It is important for me to be able to connect with clients and other developers through my website. Since React applications require third-party plugins to send an email from a website form, I looked into using EmailJS to achieve my goals. It worked wonderfully!"
       articleLink="Link: https://sarah-specialist.github.io/my-official-website/"
       />
-      <Article 
+      <Article
       src="https://i.ibb.co/fqPRsSn/ambrosial.jpg"
       alt="menu app"
       articleTitle="In-Restaurant Menu App"
