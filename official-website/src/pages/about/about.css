@@ -6,7 +6,7 @@
     overflow-y: hidden;
     position: relative;
     left: 4%;
-    margin-bottom: -45px;
+    
 }
 
 .about p,
@@ -22,6 +22,18 @@
 .about h3 {
     text-align: center;
     font-size: 22px;
+}
+
+.story {
+    width: 800px;
+    margin-left: 6%;
+    height: auto;
+    background-color: #B1AEFF;
+    opacity: 60%;
+    color: black;
+    padding: 20px;
+    border: 1px solid #B1AEFF;
+    border-radius: 10px;
 }
 
 /* Extra small devices (phones, 600px and down) */

@@ -42,8 +42,7 @@ export default function Portfolio() {
       articleTitle="In-Restaurant Menu App"
       articleGoal="Goal: Customers of 'Ambrosial' can access the electronic ordering menu through the QR code."
       articleLF="Languages and Frameworks: React, React-Router-Dom, React Functional Components, EmailJS, Axios, CSS, JavaScript, Visual Studios Code, GitHub, Agile/Scrum"
-      articleFeatures="Features: View the restaurant menu by scanning a QR code.
-      You can view a carousel of ongoing promotion, view the menu items categorized into 'appetizer' ,'main', 'beverage', and 'dessert', choose the quantity of an item before adding the item, add the item to the order list, change the quantity of your items on the order list, view your total bill inclusive of 7% GST, send the order list to the kitchen, call the server by clicking the bell icon, request for the bill by clicking the payment icon, and join membership by clicking the membership icon."
+      articleFeatures="Features: View restaurant menu by scanning a QR code, view carousel of ongoing promotion, choose quantity of an item before adding, add item to the order, change the quantity of your items on the order list, view your total bill, send the order to kitchen, call the server, request for the bill, and join membership."
       articleProcess="Process: This is a group project for the SkillsUnion/NTU Software Developer Immersive course. We utilized the Agile / Scrum methodology to guide our project management process."
       articleLink="Link: https://thenhao.github.io/group4Module2Project/"
       />

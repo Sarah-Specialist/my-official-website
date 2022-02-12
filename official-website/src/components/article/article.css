@@ -41,6 +41,8 @@
     height: auto;
     width: auto;
     padding: 40px;
+    border: 1px solid #B1AEFF;
+    border-radius: 5px;
 }
 
 .articleGoal {
@@ -63,20 +65,24 @@
     margin-left: -30px;
 }
 
-.articleProcess {
-    background-color:#B1AEFF;
-    width: 400px;
+.articleContent2 {
+    width: 450px;
     height: auto;
     float: right;
     margin-top: -450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.articleProcess {
+    background-color:#B1AEFF;
 }
 
 .articleLink {
-    background-color: #B1AEFF;
-    position: relative;
-    margin-top: -60px;
-    float: right;
-    width: 400px;
+    background-color:#B1AEFF;
+    margin-top: 10px;
 }
 
 /* Extra small devices (phones, 600px and down) */

@@ -12,8 +12,10 @@ export default function Article(props) {
                 <div className="articleLF">{articleLF}</div>
                 <div className="articleFeatures">{articleFeatures}</div>
             </div>
+            <div className="articleContent2">
                 <div className="articleProcess">{articleProcess}</div>
                 <div className="articleLink">{articleLink}</div>   
+            </div>
         </div>
     )
 }
