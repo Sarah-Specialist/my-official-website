@@ -26,7 +26,7 @@ function App() {
       </div>
       <div className={show ? "navbar active" : "navbar"}>
           <Link to="/" style={{textDecoration: "none"}}><button className="pages">Home</button></Link>
-          <Link to="/about" style={{textDecoration: "none"}}><button className="pages">About Me</button></Link>
+          <Link to="/about" style={{textDecoration: "none"}}><button className="pages">About</button></Link>
           <Link to="/portfolio" style={{textDecoration: "none"}}><button className="pages">Portfolio</button></Link>
           <Link to="/contact" style={{textDecoration: "none"}}><button className="pages">Contact</button></Link>
       </div>

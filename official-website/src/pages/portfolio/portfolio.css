@@ -1,15 +1,19 @@
 .articles {
-    position: relative;
-    left: 3%;
-    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    justify-content: center;
+    gap: 20px;
+    width: 90vw;
+    margin-left: 5%;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .articles {
-        top: 20px;
+        position: relative;
+        top: 10px;
         left: -5%;
         width: 100vw;
-        margin-bottom: -40px;
     }
 }
