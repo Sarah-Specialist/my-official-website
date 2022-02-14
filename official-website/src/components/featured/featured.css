@@ -3,8 +3,8 @@
     text-align: center;
     background-color: #EBD9FF;
     color: #343434;
-    opacity: 80%;
     margin: 10px 0;
+    padding: 10px 0;
     position: relative;
     left: 10%;
 }
@@ -14,4 +14,51 @@
 .featured div,
 .featured p {
     background-color: inherit;
+}
+
+.featured img {
+    border: 1px solid white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .featured {
+        position: relative;
+        top: 15px;
+        width: 101vw;
+        left: -5px;
+    }
+
+    .featured img {
+        width: 80vw;
+        height: 170px;
+    }
+
+    .featured p {
+        font-size: 14px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .featured {
+        width: 120vw;
+        left: -10%;
+        top: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }

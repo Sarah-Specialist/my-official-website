@@ -1,43 +1,50 @@
-.contactInfo,
-.information {
-    background-color: inherit;
-}
-
-.information {
-    margin: -10px 0;
-}
-
-.contactInfo p {
-    margin-bottom: 30px;
-}
-
-.directSocials {
-    background-color: inherit;
+.updates {
     position: relative;
-    left: -70px;
+    left: 10%;
+    text-align: center;
+    font-size: 14px;
+    background-color: #E9D7FF;
+    width: 80vw;
+    padding: 10px 0;
+}
+
+.updates h1 {
+    color: crimson;
+}
+
+.updates p {
+    font-weight: bold;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .contactInfo {
-        padding-top: 20px;
-        margin-left: -15px;
+    .updates {
+        position: relative;
+        top: 25px;
+        width: 100vw;
+        left: -20px;
+        padding: 5px 10px;
+        height: 150px;
     }
 
-    .directSocials {
-        padding-top: 40px;
-        left: -60px;
+    .updates h2,
+    .updates p {
+        margin-left: 25px;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+    .updates {
+        top: 40px;
+        left: -10%;
+        width: 120vw;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -47,5 +54,5 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+    
 }

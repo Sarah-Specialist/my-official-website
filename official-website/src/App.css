@@ -1,9 +1,41 @@
-* {
-  background-color: #B879FF;
+body {
+  background-image: URL("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTl2v4ComcnQEv9Aqad-xPrCl-mdIsuyffMg&usqp=CAU");
+  background-size: cover;
+  background-repeat: repeat;
+  width: 100vw;
+  opacity: 95%;
+  height: 99vh;
   box-sizing: border-box;
   overflow-x: hidden;
   color: #343434;
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+}
+
+.toggleMenu {
+  position: sticky;
+  top: 0;
+  margin-right: 10px;
+  float: right;
+  margin-top: -30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 20px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.toggleMenu:hover {
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
 }
 
 .App {
@@ -19,6 +51,10 @@
   width: 100vw;
   height: 30px;
   padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  z-index: 1;
 }
 
 .pages {
@@ -36,5 +72,78 @@
 .main {
   display: block;
   position: relative;
-  margin-top: 30px;
+  margin: 30px 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html,body{
+    overflow-x: hidden;
+  }
+
+  body {
+    height: 100vh;
+    width: 100%;
+    background-repeat: repeat;
+    margin: auto;
+  }
+
+  .toggleMenu {
+    display: flex;
+    z-index: 1;
+  }
+
+  .navbar {
+    position: relative;
+    top: 15px;
+    padding-left: 15%;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 250px;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .pages {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 145px;
+    width: 100vw;
+  }
+
+  .appFooter {
+    padding-top: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .appFooter {
+    padding-top: 30px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:991px) {
+  .main {
+    overflow-x: hidden;
+    padding-right: 30px;
+    width: 100%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main {
+    overflow-x: hidden;
+    padding-right: 30px;
+    width: 105vw;
+  }
 }

@@ -1,7 +1,49 @@
 .logoDiv {
     text-align: center;
     background-color: #E9D7FF;
+    position: relative;
     height: 300px;
-    width: 100%;
+    width: 100vw;
     overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logoDiv {
+        height: 200px;
+        width: 100vw;
+    }
+
+    .logoDiv img {
+        width: 100vw;
+        height: 200px;
+        padding-left: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logoDiv {
+        width: 100vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .logoDiv {
+        width: 105vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .logoDiv {
+        width: 110vw;
+    }
 }

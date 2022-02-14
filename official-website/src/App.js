@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {BrowserRouter as Router, Switch, Route, Link, Redirect} from 'react-router-dom';
 import Home from './pages/home/home';
 import About from './pages/about/about';
@@ -9,16 +9,27 @@ import Footer from './parts/footer/footer';
 import './App.css';
 
 function App() {
+  //hamburger menu
+  const [show, setShow] = useState(true);
+  const handleMenu = () => setShow(!show)
+
   return (
     <div className="App">
       <Router>
-      <div className="navbar">
-          <Link to="/"><button className="pages">Home</button></Link>
-          <Link to="/about"><button className="pages">About Me</button></Link>
-          <Link to="/portfolio"><button className="pages">Portfolio</button></Link>
-          <Link to="/contact"><button className="pages">Contact</button></Link>
+      <div className="logo">
+        <div className="toggleMenu" onClick={handleMenu}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
+        <Logo />
       </div>
-      <Logo />
+      <div className={show ? "navbar active" : "navbar"}>
+          <Link to="/" style={{textDecoration: "none"}}><button className="pages">Home</button></Link>
+          <Link to="/about" style={{textDecoration: "none"}}><button className="pages">About</button></Link>
+          <Link to="/portfolio" style={{textDecoration: "none"}}><button className="pages">Portfolio</button></Link>
+          <Link to="/contact" style={{textDecoration: "none"}}><button className="pages">Contact</button></Link>
+      </div>
       <div className="main">
         <Switch>
           <Route exact path="/"><Home /></Route>
@@ -29,7 +40,9 @@ function App() {
         </Switch>
       </div>
       </Router>
-      <Footer />
+      <div className="appFooter">
+        <Footer />
+      </div>
     </div>
   );
 }
