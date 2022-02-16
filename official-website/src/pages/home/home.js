@@ -18,7 +18,7 @@ export default function Home() {
             </span>
             <span className="card2">
                 <Card 
-                title="Get in touch with me!"
+                title="You can get in touch now!"
                 paragraph={<ContactInfo />} />
             </span>
         </div>

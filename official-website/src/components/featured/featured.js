@@ -4,7 +4,7 @@ export default function Featured() {
 
     return (
     <div className="featured">
-        <h2>Check out my latest project!</h2>
+        <h2>What's new?</h2>
         <div>
             <img src="https://i.ibb.co/fqPRsSn/ambrosial.jpg"
             alt="featured" 
