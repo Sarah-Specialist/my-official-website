@@ -7,6 +7,7 @@
     width: 80vw;
     position: relative;
     left: 10%;
+    overflow-y: hidden;
 }
 
 .servicesDiv h2,
