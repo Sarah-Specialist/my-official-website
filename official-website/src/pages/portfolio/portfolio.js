@@ -54,6 +54,18 @@ export default function Portfolio() {
         articleLink="Link: https://thenhao.github.io/group4Module2Project/"
         />
       </div>
+      <div className="article">
+        <Article
+        src="https://github.com/Sarah-Specialist/medication-delivery/blob/5b2f0183122275d63399933a2e8352d93d1df710/medication-delivery/public/image.jpg"
+        alt="medication delivery order system"
+        articleTitle="Medication Delivery Order System"
+        articleGoal="Goal: To create a medication delivery order system, with my own db.json file and API data using jsonplaceholder.typicode.com."
+        articleLF="Languages and Frameworks: React, React Hooks, React Functional Components, Axios, CSS, JavaScript, Visual Studios Code, GitHub"
+        articleFeatures="Features: Choose the medication from your prescription list. Choose the number of weeks/months of the medication you wish to order."
+        articleProcess="Process: This is an individual project that I completed on the side. Moving forward, I will add a requirement for the user to perform user authentication prior to accessing his/her prescription."
+        articleLink="Link: https://sarah-specialist.github.io/medication-delivery/"
+        />
+      </div>
     </div>
   );
 }
