@@ -7,7 +7,7 @@ export default function Featured() {
         <h2>What's new?</h2>
         <h3>NEW individual project: Medication Delivery Order System</h3>
         <div>
-            <img src="https://github.com/Sarah-Specialist/medication-order/blob/59068effd07d01796ef6726565ab72fc6d3f70dc/image.jpg"
+            <img src="https://github.com/Sarah-Specialist/medication-order/blob/bc9a6237e0dce84055a240a66536bf29b32b83e5/image.jpg"
             alt="featured" 
             height="250"
             width= "500" />
