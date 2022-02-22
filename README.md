@@ -7,7 +7,7 @@
 * Getting Started
 
 ## Introduction
-This is an individual project that I did in my free time. I created a website to consolidate information about myself, my projects and ways to contact me.
+This is an individual project that I completed on the side. I created a website to consolidate information about myself, my projects and ways to contact me.
 
 ## Built with
 * HTML
