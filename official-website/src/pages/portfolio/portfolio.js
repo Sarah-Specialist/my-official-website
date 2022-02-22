@@ -56,7 +56,7 @@ export default function Portfolio() {
       </div>
       <div className="article">
         <Article
-        src="https://ibb.co/6Dx8NHD"
+        src="https://raw.githubusercontent.com/Sarah-Specialist/medication-order/0add5c481a422209a1617b2c7f1dcbfc3171a3f6/medication-delivery/src/image.jpg"
         alt="medication delivery order system"
         articleTitle="Medication Delivery Order System"
         articleGoal="Goal: To create a medication delivery order system, with my own db.json file and API data using jsonplaceholder.typicode.com."
