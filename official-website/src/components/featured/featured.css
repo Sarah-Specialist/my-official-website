@@ -1,8 +1,8 @@
 .featured {
     width: 80vw;
     text-align: center;
-    background-color: #EBD9FF;
-    color: #343434;
+    background-image: url(https://media.istockphoto.com/vectors/abstract-black-stripes-diagonal-background-vector-id1294603953?k=20&m=1294603953&s=612x612&w=0&h=KLAV73oMUFA2ucWMMTOdXT8Vn4LVUsh6NTiXRmlX5ZA=);
+    color: white;
     margin: 10px 0;
     padding: 10px 0;
     position: relative;
@@ -10,11 +10,9 @@
     overflow-y: hidden;
 }
 
-.featured h2,
-.featured img,
-.featured div,
-.featured p {
-    background-color: inherit;
+.featured h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
 }
 
 .featured img {

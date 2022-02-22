@@ -43,23 +43,22 @@
     width: auto;
     padding: 40px;
     border: 1px solid #B1AEFF;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-image: url(https://media.istockphoto.com/vectors/abstract-black-stripes-diagonal-background-vector-id1294603953?k=20&m=1294603953&s=612x612&w=0&h=KLAV73oMUFA2ucWMMTOdXT8Vn4LVUsh6NTiXRmlX5ZA=);
+    color: white;
 }
 
 .articleGoal {
-    background-color: #B1AEFF;
     width: 200px;
     height: auto;
 }
 
 .articleLF {
-    background-color:#B1AEFF;
     width: 200px;
     height: auto;
 }
 
 .articleFeatures {
-    background-color:#B1AEFF;
     width: 200px;
     height: auto;
 }
@@ -75,12 +74,10 @@
 }
 
 .articleProcess {
-    background-color:#B1AEFF;
     width: 70vw;
 }
 
 .articleLink {
-    background-color:#B1AEFF;
     margin-top: 10px;
 }
 
