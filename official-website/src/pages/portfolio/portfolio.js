@@ -66,6 +66,18 @@ export default function Portfolio() {
         articleLink="https://sarah-specialist.github.io/medication-order/"
         />
       </div>
+      <div className="article">
+        <Article
+        src="https://github.com/Sarah-Specialist/learn-flex/blob/52b15f95d257592d2c6bc6c5ea959c50d9842c29/learn-flex/public/image.jpg"
+        alt="learn flexbox with sarah"
+        articleTitle="Learn Flexbox with Sarah"
+        articleGoal="I created a website to help new software developers to learn CSS Flexbox. This website is built using Vue.js!"
+        articleLF="Vue.js, Vue-Cli, Vue-router, Visual Studios Code, GitHub"
+        articleFeatures="Features: Navigate between the two main pages of 'Parent container' and 'Child Item'. Click on the router buttons to view the difference between the properties available."
+        articleProcess="This is an individual project that I completed on my own. I just started learning Vue.js one week ago and this is my first Vue.js project."
+        articleLink=""
+        />
+      </div>
     </div>
   );
 }
