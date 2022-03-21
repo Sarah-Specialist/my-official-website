@@ -8,7 +8,7 @@ export default function Portfolio() {
     <div className="articles">
       <div className="article">
         <Article 
-        src="https://media-exp1.licdn.com/dms/image/C4E22AQEU0daWdlKwKA/feedshare-shrink_800/0/1640229225826?e=1646265600&v=beta&t=s6oP_tOb7lrqzLUkWJUsg6RvR9aEbNdQcx_Mpua9yQU"
+        src="https://i.ibb.co/7VHWQWj/outcome.jpg"
         alt="P F calculator"
         articleTitle="The PaO2 / FiO2 calculator"
         articleGoal="This tool helps physicians understand the patient’s lung condition and oxygenation status. This is typically used for patients with acute respiratory distress syndrome (ARDS)."
@@ -20,7 +20,7 @@ export default function Portfolio() {
        </div>
        <div className="article">
         <Article 
-        src="https://media-exp1.licdn.com/dms/image/C4E22AQF-AiLR37TQdw/feedshare-shrink_800/0/1641550173472?e=1646265600&v=beta&t=H36gOCjopmro9UnALz2gncXA_g2OTAg6dVQY6xekYag"
+        src="https://i.ibb.co/hVZZWty/image.jpg"
         alt="carpark availability"
         articleTitle="Carpark Availability"
         articleGoal="This tool helps the general public to easily find and source for available parking."
@@ -68,7 +68,7 @@ export default function Portfolio() {
       </div>
       <div className="article">
         <Article
-        src="https://github.com/Sarah-Specialist/learn-flex/blob/52b15f95d257592d2c6bc6c5ea959c50d9842c29/learn-flex/public/image.jpg"
+        src="https://i.ibb.co/5sDP6rC/image.jpg"
         alt="learn flexbox with sarah"
         articleTitle="Learn Flexbox with Sarah"
         articleGoal="I created a website to help new software developers to learn CSS Flexbox. This website is built using Vue.js!"
