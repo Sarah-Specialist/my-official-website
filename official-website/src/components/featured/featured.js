@@ -11,7 +11,7 @@ export default function Featured() {
             alt="featured" 
             height="250"
             width= "500" />
-            <p></p>
+            <p>https://learn-flexbox-with-sarah.netlify.app/</p>
         </div>
     </div>
     )
