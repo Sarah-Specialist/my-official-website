@@ -17,6 +17,10 @@
     background-color: inherit;
 }
 
+.paragraph {
+    margin-top: -20px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .paragraph {
