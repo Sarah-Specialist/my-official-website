@@ -38,6 +38,16 @@
     border-radius: 10px;
 }
 
+.skills {
+    width: 800px;
+    margin-left: 6%;
+    height: auto;
+    background-color: #EBD9FF;
+    padding: 20px;
+    border: 1px solid #EBD9FF;
+    border-radius: 10px;
+}
+
 .education {
     width: 800px;
     margin-left: 6%;

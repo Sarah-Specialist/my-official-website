@@ -6,7 +6,7 @@ export default function Profile() {
         <>
         <img src={photograph} 
             alt="profile"
-            height="270" width="260"
+            height="280" width="270"
             style={{backgroundColor: "inherit", marginTop: -50, marginBotton: -20, paddingLeft: 20}} />
         </>
     )

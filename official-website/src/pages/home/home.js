@@ -13,8 +13,7 @@ export default function Home() {
             <span className="card1">
                 <Card 
                 title={<Profile />}
-                paragraph="Reach for your dreams with specialized design for your brand and company!
-                Your website will be intuitive to use and responsive to the user." />
+                paragraph="Specialist in Web Development"/>
             </span>
             <span className="card2">
                 <Card 

@@ -6,11 +6,24 @@
     justify-content: center;
     gap: 20px;
     margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 .card1,
 .card2 {
     overflow-y: hidden;
+}
+
+.card1 .title {
+    position: relative;
+    top: 110px;
+}
+
+.card1 .paragraph {
+    position: relative;
+    top: -250px;
+    font-weight: bold;
+    font-size: 32px;
 }
 
 /* Extra small devices (phones, 600px and down) */
