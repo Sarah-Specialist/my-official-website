@@ -1,5 +1,5 @@
 body {
-  background-image: URL("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTl2v4ComcnQEv9Aqad-xPrCl-mdIsuyffMg&usqp=CAU");
+  background-image: URL("https://media.istockphoto.com/vectors/abstract-black-stripes-diagonal-background-vector-id1294603953?k=20&m=1294603953&s=612x612&w=0&h=KLAV73oMUFA2ucWMMTOdXT8Vn4LVUsh6NTiXRmlX5ZA=");
   background-size: cover;
   background-repeat: repeat;
   width: 100vw;
@@ -71,7 +71,6 @@ body {
 
 .main {
   display: block;
-  position: relative;
   margin: 30px 0;
 }
 

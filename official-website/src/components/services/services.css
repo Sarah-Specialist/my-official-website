@@ -1,16 +1,3 @@
-.servicesDiv {
-    background-color: #EBD9FF;
-    margin: 20px 0;
-    padding: 10px 0;
-    text-align: center;
-    height: 230px;
-    width: 80vw;
-    position: relative;
-    left: 10%;
-    overflow-y: hidden;
-}
-
-.servicesDiv h2,
 .service {
     background-color: #EBD9FF;
     opacity: 80%;

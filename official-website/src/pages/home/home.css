@@ -26,6 +26,44 @@
     font-size: 32px;
 }
 
+.featured {
+    width: 70vw;
+    background-color: #EBD9FF;
+    position: relative;
+    left: 16vw;
+    text-align: center;
+    margin: 30px 0 10px 0;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.featured h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.featured img {
+    border: 1px solid white;
+}
+
+.servicesDiv {
+    background-color: #EBD9FF;
+    margin: 20px 0;
+    padding: 10px 0;
+    text-align: center;
+    height: 230px;
+    width: 80vw;
+    position: relative;
+    left: 10%;
+    overflow-y: hidden;
+    border-radius: 10px
+}
+
+.servicesDiv h2 {
+    background-color: #EBD9FF;
+    opacity: 80%;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .card1 {

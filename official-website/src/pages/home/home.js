@@ -21,10 +21,10 @@ export default function Home() {
                 paragraph={<ContactInfo />} />
             </span>
         </div>
-        <div>
+        <div className="featured">
             <Featured />
         </div>
-        <div>
+        <div className="servicesDiv">
             <Services />
         </div>
         </>

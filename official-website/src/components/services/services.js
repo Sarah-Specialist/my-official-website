@@ -2,7 +2,7 @@ import './services.css';
 
 export default function Services() {
     return (
-        <div className="servicesDiv">
+        <>
             <h2>Services</h2>
             <div className="services">
                 <div className="service">
@@ -30,6 +30,6 @@ export default function Services() {
                     <p>Supercharge your growth</p>
                 </div>
             </div>
-        </div>
+        </>
     )
 }

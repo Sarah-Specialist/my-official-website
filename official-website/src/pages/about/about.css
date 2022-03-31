@@ -11,6 +11,10 @@
     left: 2%;
 }
 
+.about h2 {
+    color: white;
+}
+
 .about p,
 .about h2,
 .about h3 {
